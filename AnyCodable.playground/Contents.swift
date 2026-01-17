@@ -1,5 +1,5 @@
 import Foundation
-import AnyCodable
+import AnyCodableSwift
 
 let dictionary: [String: AnyEncodable] = [
     "boolean": true,

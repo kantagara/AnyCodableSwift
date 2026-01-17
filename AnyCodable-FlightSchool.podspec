@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'AnyCodable-FlightSchool'
-  s.module_name  = 'AnyCodable'
-  s.version      = '0.6.7'
+  s.module_name  = 'AnyCodableSwift'
+  s.version      = '0.7.0'
   s.summary      = 'Type-erased wrappers for Encodable, Decodable, and Codable values.'
 
   s.description  = <<-DESC

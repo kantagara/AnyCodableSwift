@@ -37,20 +37,20 @@
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AnyCodable::AnyCodable";
-			remoteInfo = AnyCodable;
+			remoteInfo = AnyCodableSwift;
 		};
 		F8558961228E1831001D1245 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AnyCodable::AnyCodableTests";
-			remoteInfo = AnyCodableTests;
+			remoteInfo = AnyCodableSwiftTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"AnyCodable::AnyCodable::Product" /* AnyCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AnyCodable::AnyCodableTests::Product" /* AnyCodableTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnyCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AnyCodable::AnyCodable::Product" /* AnyCodableSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnyCodableSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AnyCodable::AnyCodableTests::Product" /* AnyCodableSwiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnyCodableSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* AnyDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
 		OBJ_11 /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
 		OBJ_14 /* AnyCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodableTests.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"AnyCodable::AnyCodable" /* AnyCodable */ = {
+		"AnyCodable::AnyCodable" /* AnyCodableSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "AnyCodable" */;
 			buildPhases = (
@@ -160,12 +160,12 @@
 			);
 			dependencies = (
 			);
-			name = AnyCodable;
-			productName = AnyCodable;
-			productReference = "AnyCodable::AnyCodable::Product" /* AnyCodable.framework */;
+			name = AnyCodableSwift;
+			productName = AnyCodableSwift;
+			productReference = "AnyCodable::AnyCodable::Product" /* AnyCodableSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"AnyCodable::AnyCodableTests" /* AnyCodableTests */ = {
+		"AnyCodable::AnyCodableTests" /* AnyCodableSwiftTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "AnyCodableTests" */;
 			buildPhases = (
@@ -177,9 +177,9 @@
 			dependencies = (
 				OBJ_55 /* PBXTargetDependency */,
 			);
-			name = AnyCodableTests;
-			productName = AnyCodableTests;
-			productReference = "AnyCodable::AnyCodableTests::Product" /* AnyCodableTests.xctest */;
+			name = AnyCodableSwiftTests;
+			productName = AnyCodableSwiftTests;
+			productReference = "AnyCodable::AnyCodableTests::Product" /* AnyCodableSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		"AnyCodable::SwiftPMPackageDescription" /* AnyCodablePackageDescription */ = {
@@ -290,13 +290,13 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = AnyCodable;
+				PRODUCT_BUNDLE_IDENTIFIER = AnyCodableSwift;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = AnyCodable;
+				TARGET_NAME = AnyCodableSwift;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -321,13 +321,13 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = AnyCodable;
+				PRODUCT_BUNDLE_IDENTIFIER = AnyCodableSwift;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = AnyCodable;
+				TARGET_NAME = AnyCodableSwift;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -437,7 +437,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = AnyCodableTests;
+				TARGET_NAME = AnyCodableSwiftTests;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -462,7 +462,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = AnyCodableTests;
+				TARGET_NAME = AnyCodableSwiftTests;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};

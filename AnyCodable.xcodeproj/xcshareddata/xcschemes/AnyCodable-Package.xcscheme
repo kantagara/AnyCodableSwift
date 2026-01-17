@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AnyCodable::AnyCodable"
-               BuildableName = "AnyCodable.framework"
-               BlueprintName = "AnyCodable"
+               BuildableName = "AnyCodableSwift.framework"
+               BlueprintName = "AnyCodableSwift"
                ReferencedContainer = "container:AnyCodable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AnyCodable::AnyCodableTests"
-               BuildableName = "AnyCodableTests.xctest"
-               BlueprintName = "AnyCodableTests"
+               BuildableName = "AnyCodableSwiftTests.xctest"
+               BlueprintName = "AnyCodableSwiftTests"
                ReferencedContainer = "container:AnyCodable.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AnyCodable::AnyCodable"
-            BuildableName = "AnyCodable.framework"
-            BlueprintName = "AnyCodable"
+            BuildableName = "AnyCodableSwift.framework"
+            BlueprintName = "AnyCodableSwift"
             ReferencedContainer = "container:AnyCodable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

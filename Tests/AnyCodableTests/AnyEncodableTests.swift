@@ -1,4 +1,4 @@
-@testable import AnyCodable
+@testable import AnyCodableSwift
 import XCTest
 
 class AnyEncodableTests: XCTestCase {
