@@ -25,7 +25,7 @@ let package = Package(
   name: "YourProject",
   dependencies: [
     .package(
-        url: "https://github.com/Flight-School/AnyCodable",
+        url: "https://github.com/kantagara/AnyCodable",
         from: "0.7.0"
     ),
   ]
